@@ -1,9 +1,5 @@
 # Next.js WordPress Starter
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 Scaling WordPress with the power of [Next.js](https://nextjs.org/) and the static web!
 
 ## ⚡️ Quick Start
