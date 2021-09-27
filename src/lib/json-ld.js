@@ -101,14 +101,13 @@ export function WebpageJsonLd({ title = '', description = '', siteTitle = '', sl
 
 export function AuthorJsonLd({ author = {} }) {
   const { homepage = '' } = config;
-  const { name, avatar, description } = author;
+  const { name, description } = author;
   const path = authorPathByName(name);
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: name,
-    image: avatar?.url,
     url: `${homepage}${path}`,
     description: description,
   };

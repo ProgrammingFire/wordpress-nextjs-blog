@@ -13,10 +13,6 @@ const PostCard = ({ post, options = {} }) => {
 
   const metadata = {};
 
-  if (!excludeMetadata.includes('author')) {
-    metadata.author = author;
-  }
-
   if (!excludeMetadata.includes('date')) {
     metadata.date = date;
   }
